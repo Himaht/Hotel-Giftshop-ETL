@@ -1,0 +1,20 @@
+# Hotel source
+SQLSERVER_HOTEL_SOURCE_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=Hotel;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+# Sprint 4 source
+SQLSERVER_SPRINT4_SOURCE_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=WideWorldImportersDW;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+# DW targets
+SQLSERVER_CUSTOMERSPEND_DW_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=CustomerSpendDW;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+SQLSERVER_REVENUEGEOGRAPHY_DW_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=RevenueGeographyDW;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+SQLSERVER_EMPLOYEEPAYROLL_DW_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=EmployeePayrollDW;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+SQLSERVER_DGDB_CONN_STR=Driver={ODBC Driver 18 for SQL Server};Server=tcp:cis444.campus-quest.com,27000;Database=DGDB;Uid=sa;Pwd=Academic2026U07!;Encrypt=yes;TrustServerCertificate=yes;
+
+# Mongo
+MONGO_URI=mongodb://admin:Academic2026U07%21@cis444.campus-quest.com:27010/?tlsInsecure=true&authSource=admin
+MONGO_DB_GIFTSHOP=hotel
+
+BATCH_SIZE=5000

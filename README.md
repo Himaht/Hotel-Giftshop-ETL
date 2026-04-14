@@ -1,4 +1,4 @@
-# Hotel, Gift Shop, and Payroll Data Warehousing Project
+# Hotel, Gift Shop, and Payroll Data Warehousing Project - Ongoing
 
 ## Project Overview
 This project builds a full data pipeline and analytics solution using hotel operations data, gift shop transaction data, and employee/payroll-related data. The project includes data warehouse design, ETL development, incremental loading, data governance tracking, and a final dashboard and presentation.
